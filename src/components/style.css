@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rubik:wght@300;400;500;600;700;800&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.Home {
+  width: 26%;
+  height: 85vh;
+  padding: 30px;
+  border: 1px solid rgb(232, 232, 232);
+  margin: auto;
+  background-color: #F7F8F9;
+  margin-top:20px;
+
+}
+.Home h1 {
+  margin-top: 400px;
+}
+.create-acc{
+    background-color: #6C25FF;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin:7px;
+}
+.create-acc a{
+    text-decoration: none;
+    color:white;
+}
+.login{
+    background-color:#6C25FF4B;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin:7px;
+}
+
+.login a{
+    text-decoration: none;
+    color:#1D2226;
+}
+
+
+.login-content{
+    width: 26%;
+  height: 85vh;
+  padding: 30px;
+  border: 1px solid rgb(232, 232, 232);
+  margin: auto;
+  background-color: #F7F8F9;
+  margin-top:20px;
+}
+form input{
+    margin: 10px 0px;
+    width: 95%;
+    padding:10px;
+    border-radius: 5px;
+    border: 0.2px solid gray;
+}
+input:focus{
+    outline: none;
+}
+form  button{
+    background-color: #6C25FF;
+    width: 100%;
+    padding: 13px 0px;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    border:none;
+    margin-top:10px;
+}
+.create{
+    width: 26%;
+    height: 85vh;
+    padding: 30px;
+    border: 1px solid rgb(232, 232, 232);
+    margin: auto;
+    background-color: #F7F8F9;
+    margin-top:20px;
+}
+.button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0px;
+}
+.create-button{
+    margin-top:90px;
+}
+
+
+.img{
+    display: flex;
+    gap:20px;
+}
+.profile{
+    width: 26%;
+    height: 95vh;
+    border: 1px solid rgb(232, 232, 232);
+    margin: auto;
+   
+}
+.profile-title{
+    margin-left: 15px;
+    
+}
+.profile-content{
+    height: 78vh;
+    padding: 30px;
+    margin: auto;
+    background-color: #F7F8F9;
+    margin-top:20px;
+}
